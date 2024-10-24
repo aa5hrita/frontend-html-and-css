@@ -13,9 +13,12 @@
                 color: hotpink;
             }
         </style>
+        <link href="css/style.css" rel="stylesheet"> 
     </head>
     <body>
+        <h2 class = "authorName">SCRIMBA</h2>
         <h2 style="font-size: 70px; color: rgb(255, 0, 221);">Practice HTML & CSS</h2>
+
         <p>Learning <strong>web development</strong> these days is <em>really</em> important!</p>
         <p>We use CSS to add style to our HTML documents.</p>
         <h4>CSS consists of properties, values and syntax.</h4>
@@ -50,7 +53,7 @@
         <p>A actual link uses anchor tag along with href attribute to link to another file.</p>
         <p>Images use <strong>src</strong> attribute. A short form of source.</p>
         <p>These are self closing elements i.e. they dont need closing tag.</p>
-        <p>Images are no valid without <strong>alt</strong>attribute. Which is a text! But its not needed for decorative elements or logo.</p>
+        <p>Images are no valid without <strong>alt</strong> attribute. Which is a text! But its not needed for decorative elements or logo.</p>
         <p>My pet animal.</p>
         <img src="images/dog.jpg" alt="A puppy in the grass" >
         
@@ -64,8 +67,33 @@
             <li>I would like to <a href="mars.html">know more about mars</a></li>
         </ul>
 
-        <h3>Internal CSS and External CSS</h3>
+        <h3>Internal CSS </h3>
         <p>Check out head element and the internal style tag with css defined for different html elements under it.</p>
 
+        <h3>External CSS</h3>
+        <p style="color: darkred;"> <strong>BE VERY VERY VERYYYY CAREFYL. As it chnages all the pages!!</strong></p>
+        <p> Created a style.css file in css folder. Check it out!</p>
+        <p> How do we connect our html files to external css pages?</p>
+        <p> ANSWER: Use link tag in our head element along with href and rel -> relationship ATTRIBUTES of this file with current file usually a text. Check out earth and mars html head element! </p>
+        
+        <h3> Classes and IDs </h3>
+        <p> Shows how to modify css for specific html elements only using external CSS.</p>
+        <p> THE CLASS SELECTOR = use dot (.) and a <em>nameofclass</em> with braces and css properties in it to point to that in the external css file.. Inside the html element add the attribute <em>class="nameofclass"</em>. </p>
+        <p> THE ID SELECTOR = use # to point to that in the external css file. Another attribute that we can add to html elements and give it a name -> <em>idname</em>.</p>
+        <p> <strong>Key Differences between ID and CLASS</strong></p>
+        <ul>
+            <li>ID is an Individual (you cant have same id twice in the same page i.e. ONE TIME PER PAGE).</li>
+            <li> A CLASS is a group and it can be used over and over again -> many times in a page !!!</li>
+            <li> An ID will OVERRIDE a CLASS if they both are selecting the same thing </li>
+            <li> Classes can be used only once if you want. </li>
+            <li>Use classes everywhere - makes life easier!!</li>
+        </ul>
+        <p> Note / Tips</p>
+        <ul>
+            <li> SPACES Cause problems ! camelcase or hyphen works</li>
+            <li> numbers cant be first character in naming classes and ids </li>
+        </ul>
+        <h4 class="classtest" id="idtest"> TEST FOR CLASS and ID: Lets see who overrides who !! If ID overrides I will be painted AQUA else CORAL</h4>
+        <!-- THIS IS A COMMENT for the developers -->
     </body>
 </html>

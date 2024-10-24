@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(211, 208, 208); 
+    color: #0f2dc4;
+}
+
+a {
+    color: rgb(173, 64, 27);
+}
+h1 {
+    color: darkcyan;
+}
+.classtest {
+ color: coral;
+}
+#idtest {
+    color: aqua;
+}
+
+.intro {
+    font-size: 24px;
+    color: darkorchid;
+    text-decoration: underline;
+}
+
+#planet-tittle {
+    font-size: 50px;
+    color: crimson;
+    text-align: center;
+}
+/* todo: change the id name later */
+
+.authorName {
+    color: blueviolet;
+    text-decoration: underline;
+    text-align: center;
+}
