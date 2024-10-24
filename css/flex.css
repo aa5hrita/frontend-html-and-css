@@ -44,3 +44,9 @@ header {
 .column {
     margin: 0 10px;
 }
+
+footer {    
+    text-align: center;   
+    font-size: 21px;
+    color: #1D3C41;
+}
